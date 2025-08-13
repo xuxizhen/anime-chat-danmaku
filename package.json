@@ -2,14 +2,14 @@
   "name": "anime-chat-danmaku",
   "version": "1.0.0",
   "description": "Real-time anime-style chat with danmaku effects",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "build": "echo 'Build complete'"
+    "build": "echo Build complete"
   },
   "dependencies": {
-    "express": "^4.18.2","
+    "express": "^4.18.2",
     "socket.io": "^4.7.2",
     "cors": "^2.8.5"
   },
